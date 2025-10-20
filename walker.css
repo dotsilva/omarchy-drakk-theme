@@ -20,7 +20,7 @@ window .box-wrapper {
 
 window .search-container,
 window .search {
-  background: @border; /* solid background for search */
+  background: @hover; /* solid background for search */
   color: @foreground;
   border: 3px solid @border;
   border-radius: 8px;
