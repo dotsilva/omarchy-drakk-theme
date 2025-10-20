@@ -6,11 +6,11 @@
 @define-color background #282a36;
 
 window {
-  /* keep default size, don’t set background or border here */
+  /* keep default size, no background needed here */
 }
 
 window .box-wrapper {
-  background: alpha(@background, 0.8);
+  background: @background; /* solid background */
   color: @text;
   border: 3px solid @border;
   border-radius: 8px;
@@ -20,7 +20,7 @@ window .box-wrapper {
 
 window .search-container,
 window .search {
-  background: alpha(@hover, 0.3);
+  background: @hover; /* solid background for search */
   color: @foreground;
   border: 3px solid @border;
   border-radius: 8px;
