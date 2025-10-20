@@ -6,9 +6,7 @@
 @define-color background #282a36;
 
 window,
-box,
-list,
-row {
+box {
   border: 3px solid @border;
   border-radius: 8px;
 }
