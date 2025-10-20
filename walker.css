@@ -4,6 +4,7 @@
 @define-color border #bd93f9;
 @define-color foreground #f8f8f2;
 @define-color background #282a36;
+@define-color hover #d6acff
 
 window {
   /* keep default size, no background needed here */
