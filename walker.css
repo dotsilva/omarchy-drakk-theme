@@ -4,3 +4,31 @@
 @define-color border #bd93f9;
 @define-color foreground #f8f8f2;
 @define-color background #282a36;
+
+window {
+  border-radius: 8px;
+}
+
+window .box-wrapper {
+  border-radius: 8px;
+}
+
+window .search-container,
+window .search {
+  border-radius: 8px;
+}
+
+window .search:focus {
+  border-color: @border;
+  outline: none;
+}
+
+window .bar,
+window .scroll,
+window .list {
+  border-radius: 8px;
+}
+
+window child {
+  border-radius: 8px;
+}
