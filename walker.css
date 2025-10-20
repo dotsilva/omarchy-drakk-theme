@@ -11,24 +11,20 @@ window {
 }
 
 window .box-wrapper {
-  border: 3px;
   border-radius: 8px;
 }
 
 window .search-container,
 window .search {
-  border: 3px;
   border-radius: 8px;
 }
 
 window .bar,
 window .scroll,
 window .list {
-  border: 3px;
   border-radius: 8px;
 }
 
 window child {
-  border: 3px;
   border-radius: 8px;
 }
