@@ -4,7 +4,6 @@
 @define-color border #bd93f9;
 @define-color foreground #f8f8f2;
 @define-color background #282a36;
-@define-color hover #d6acff
 
 window {
   /* keep default size, no background needed here */
@@ -21,7 +20,7 @@ window .box-wrapper {
 
 window .search-container,
 window .search {
-  background: @hover; /* solid background for search */
+  background: @border; /* solid background for search */
   color: @foreground;
   border: 3px solid @border;
   border-radius: 8px;
