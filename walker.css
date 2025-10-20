@@ -4,3 +4,27 @@
 @define-color border #bd93f9;
 @define-color foreground #f8f8f2;
 @define-color background #282a36;
+
+window {
+  border: 3px solid @border;
+  border-radius: 8px;
+}
+
+window .box-wrapper {
+  color: @text;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 0;
+}
+
+window .search-container,
+window .search {
+  color: @foreground;
+  border: 3px solid @border;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
