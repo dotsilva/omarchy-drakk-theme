@@ -1,2 +1,45 @@
 @define-color foreground #f8f8f2;
 @define-color background #282a36;
+
+/* THEME OVERRIDES — add at EOF of theme waybar.css */
+
+/* global text */
+.bar,
+.waybar,
+.bar .module,
+.waybar .module,
+.bar .module *,
+.waybar .module *,
+#clock,
+#tray,
+#workspaces,
+.modules-left,
+.modules-center,
+.modules-right,
+#custom-update,
+#custom-screenrecording-indicator {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.1 !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* dim empty workspace buttons */
+#workspaces button.empty {
+  opacity: 0.2 !important;
+  transition: opacity 140ms linear;
+}
+
+/* force 8px radius everywhere inside the bar (theme-level override) */
+.bar,
+.waybar,
+.bar .module,
+.waybar .module,
+.bar .module *,
+.waybar .module *,
+#workspaces button,
+#tray .icon,
+.bar button,
+.bar img {
+  border-radius: 8px !important;
+}
