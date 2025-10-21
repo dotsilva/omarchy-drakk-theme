@@ -1,19 +1,2 @@
-/* color defines usados por style.css */
 @define-color foreground #f8f8f2;
 @define-color background #282a36;
-
-/* --- overrides do tema (forçam 14px bold, radius 8, workspace empty dim) */
-.bar,
-.waybar,
-.bar .module,
-.waybar .module {
-  font-size: 14px !important;
-  font-weight: 700 !important;
-  line-height: 1.1 !important;
-  -webkit-font-smoothing: antialiased !important;
-  border-radius: 8px !important;
-}
-#workspaces button.empty {
-  opacity: 0.2 !important;
-  transition: opacity 140ms linear;
-}
