@@ -1,12 +1,2 @@
 @define-color foreground #f8f8f2;
 @define-color background #282a36;
-
-* {
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-#workspaces button.empty {
-  opacity: 0.2;
-}
